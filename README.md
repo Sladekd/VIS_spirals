@@ -4,7 +4,7 @@
 
 **Animated climate spirals of low-visibility (fog) hours from airport METAR observations**
 
-[![CI](https://github.com/Sladekd/vis-spirals/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/vis-spirals/actions/workflows/ci.yml)
+[![CI](https://github.com/Sladekd/vis-spirals/actions/workflows/ci.yml/badge.svg)](https://github.com/Sladekd/vis-spirals/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![matplotlib](https://img.shields.io/badge/made%20with-matplotlib-11557c)
@@ -47,7 +47,7 @@ the typical band were unusually foggy; points inside were unusually clear.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vis-spirals.git
+git clone https://github.com/Sladekd/vis-spirals.git
 cd vis-spirals
 pip install -e .
 
