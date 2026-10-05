@@ -4,7 +4,7 @@
 
 **Animated climate spirals of low-visibility (fog) hours from airport METAR observations**
 
-[![CI](https://github.com/YOUR_USERNAME/vis-spirals/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/vis-spirals/actions/workflows/ci.yml)
+[![CI](https://github.com/Sladekd/vis-spirals/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/vis-spirals/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![matplotlib](https://img.shields.io/badge/made%20with-matplotlib-11557c)
@@ -96,7 +96,7 @@ anim = animate_monthly_cumulative_spiral(monthly, station="LKNA", cmap="viridis"
 save_gif(anim, "my_spiral.gif", fps=10)
 ```
 
-Works in Jupyter and Google Colab too — just `pip install git+https://github.com/YOUR_USERNAME/vis-spirals.git`.
+Works in Jupyter and Google Colab too — just `pip install git+https://github.com/Sladekd/vis-spirals.git`.
 
 ## Data
 
