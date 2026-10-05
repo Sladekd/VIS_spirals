@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vis-spirals"
+version = "0.1.0"
+description = "Animated polar climate spirals of low-visibility (fog) hours from METAR/ASOS airport observations."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["meteorology", "visibility", "fog", "metar", "climate-spiral", "matplotlib", "animation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "numpy>=1.22",
+    "pandas>=1.5",
+    "matplotlib>=3.6",
+    "pillow>=9.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+vis-spirals = "vis_spirals.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/vis-spirals"
+Issues = "https://github.com/YOUR_USERNAME/vis-spirals/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E402"]
