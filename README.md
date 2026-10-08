@@ -29,7 +29,7 @@ Running total of low-visibility hours within each year, month by month. Each yea
 a gradient from oldest (purple) to newest (yellow): steep segments mean foggy months, and years
 that end further from the centre had more fog overall.
 
-<p align="center"><img src="docs/animations/monthly_cumulative_spiral.gif" width="520" alt="Monthly cumulative spiral"></p>
+<p align="center"><img src="./docs/animations/monthly_cumulative_spiral.gif" width="520" alt="Monthly cumulative spiral"></p>
 
 ### 2 · Each year vs. the long-term mean
 One frame per year. The red curve shows hours per day below 1 km; the grey curve is the
@@ -42,7 +42,7 @@ The departure of each day from its day-of-year mean, drawn day by day. Completed
 grey, the current year is traced in red, and the yellow marker is the newest day. Points outside
 the typical band were unusually foggy; points inside were unusually clear.
 
-<p align="center"><img src="docs/animations/daily_anomaly_spiral.gif" width="520" alt="Daily anomaly spiral"></p>
+<p align="center"><img src="./docs/animations/daily_anomaly_spiral.gif" width="520" alt="Daily anomaly spiral"></p>
 
 ## Quick start
 
