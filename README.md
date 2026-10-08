@@ -9,7 +9,7 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![matplotlib](https://img.shields.io/badge/made%20with-matplotlib-11557c)
 
-<img src="./docs/animations/monthly_cumulative_spiral.gif" width="560" alt="Monthly cumulative hours with visibility below 1 km at LKNA">
+<img src="https://github.com/Sladekd/VIS_spirals/blob/main/animations/monthly_cumulative_spiral.gif" width="560" alt="Monthly cumulative hours with visibility below 1 km at LKNA">
 
 </div>
 
